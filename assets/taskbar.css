@@ -1,0 +1,47 @@
+.taskbar {
+    position: absolute;
+    margin: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    background-color: rgb(30, 30, 40);;
+
+    height: 40px;
+}
+
+.taskbar-main-item {
+    background-color: #735ed3;
+}
+
+.taskbar-item {
+    float: left;
+    height: 100%;
+    width: 44px;
+}
+
+.taskbar-item-large {
+    width: 90px;
+    display: inline-flex;
+    align-items: center;
+    font-size: 16px;
+    color: #978ace;
+}
+
+.taskbar-time {
+    float: right;
+    height: 100%;
+    width: 80px;
+    display: inline-flex;
+    align-items: center;
+    font-size: 16px;
+    text-align: center;
+}
+
+.taskbar-time:hover { background-color: #49485000; }
+.taskbar-item:hover { background-color: #494850; }
+.download-button {width: 120px;}
+.meme-button {width: 90px;}
+.support-button {width: 110px;}
+
+.taskbar-main-item:hover { background-color: #2200ff; }

@@ -1,0 +1,21 @@
+body {
+    color: white;
+    font: 44px Arial, sans-serif;
+}
+
+.other {
+    font-size: 38px;
+    color: #cbc6e2;
+}
+
+p {
+    font-size: 14px;
+}
+
+.padding {
+    border-radius: 30px;
+    margin: auto;
+    height: 80%;
+    width: auto;
+    padding: 10px;
+}
