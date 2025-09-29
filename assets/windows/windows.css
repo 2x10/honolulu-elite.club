@@ -1,4 +1,15 @@
-#main-window { width: 590px; height: 340px; opacity: 0.85; margin: auto;}
+#main-window { 
+    width: 600px; 
+    height: 350px; 
+    opacity: 0.85; 
+    margin:0;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -300px;
+    margin-top: -175px
+}
+
 #download-window { width: 300px; height: 400px; margin:10% 80%;}
 #meme-window { width: 400px; height: 350px; margin:1% 5%; }
 #donate-window { width: 400px; height: 350px; margin:20% 10%; }
